@@ -1,253 +1,270 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
 <!--
-  <<< Author notes: Header of the course >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
 -->
 
-# Communicate using Markdown
 
-_Organize ideas and collaborate using Markdown, a lightweight language for text formatting._
 
+<!-- PROJECT SHIELDS -->
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-<details id=1 open>
-<summary><h2>Step 1: Add headers</h2></summary>
 
-_Welcome to "Communicate using Markdown"! :wave:_
 
-**What is _Markdown_?** Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-- Comments in [issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues), [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), and [discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions)
-- Files with the `.md` or `.markdown` extension
-- Sharing snippets of text in [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
+  <h3 align="center">Best-README-Template</h3>
 
-**What is a _header_?** A header is a larger bit of text at the beginning of a section. There are six sizes.
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
 
-### Example
 
-```md
-# This is an `<h1>` header, which is the largest
-## This is an `<h2>` header
-###### This is an `<h6>` header, which is the smallest
-```
 
-#### How it looks
-
-# This is an `<h1>` header, which is the largest
-## This is an `<h2>` header
-###### This is an `<h6>` header, which is the smallest
-
-### :keyboard: Activity: Edit your file with headers
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Open the **pull requests** tab.
-1. Click **New pull request**, for the branches to compare, select `base: main` and `compare: start-markdown`.
-1. Click **Create pull request**.
-1. In this pull request, go to the **Files changed** tab. We made an empty file `index.md` for you.
-1. Select **Edit file** from the three dotted **...** menu in the upper right corner of the file view on `index.md`.
-1. On the **Edit file** tab, add a `#`, followed by a **space**, before any content you like to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
-1. Above your new content, click **Preview**.
-1. Type a short, meaningful commit message that describes the change you made to the file.
-1. Select Commit directly to the start-markdown branch.
-1. Click **Commit changes**.
-1.  Wait about 20 seconds then refresh this page for the next step.
-
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
 </details>
 
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
 
-<details id=2>
-<summary><h2>Step 2: Add an image</h2></summary>
 
-_Great job adding headers to the file :sparkles:_
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Let's add an image. Include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your image doesn't display, such as when there's a poor connection. You can see the syntax for images below:
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-### Example
+There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-```md
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-```
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should implement DRY principles to the rest of your life :smile:
 
-#### How it looks
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-<img alt="Image of Yaktocat" src=https://octodex.github.com/images/yaktocat.png width=400>
+Use the `BLANK_README.md` to get started.
 
-### :keyboard: Activity: Adding an image
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-1. As you did before, edit the `index.md` file in this pull request.
-1. In the file, add the correct Markdown for your image of choice. Don't forget to include alt-text!
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page for the next step.
 
-</details>
 
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
+### Built With
 
-<details id=3>
-<summary><h2>Step 3: Add a code example</h2></summary>
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-_Great job adding an image to the file :tada:_
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
-In addition to code blocks, some code blocks should be rendered differently depending on the language, such as JavaScript or command-line text.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Example
 
-<pre>
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
-</pre>
 
-#### How it looks
+<!-- GETTING STARTED -->
+## Getting Started
 
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-### :keyboard: Activity: Adding a code example
+### Prerequisites
 
-1. As you did before, edit the file in this pull request.
-1. In the file, add the correct Markdown for a code example of your choice.
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page for the next step.
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-</details>
+### Installation
 
-<!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-<details id=4>
-<summary><h2>Step 4: Make a task list</h2></summary>
-
-_Great job adding a code example to the file :partying_face:_
-
-**What is a _task list_?** A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
-
-### Example
-
-```
-- [x] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
-```
-
-#### How it looks
-
-- [x] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
-
-### :keyboard: Activity: Add a task list
-
-GitHub Actions went ahead and made a branch for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
-
-1. Return to your pull request.
-1. Use Markdown to create a task list. Here is an example:
-
-   ```md
-   - [ ] Turn on GitHub Pages
-   - [ ] Outline my portfolio
-   - [ ] Introduce myself to the world
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
    ```
 
-   Remember, a task list starts with the syntax `- [ ]` and then the task list item. The formatting is specific!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit the changes to the file.
-1. Wait about 20 seconds then refresh this page for the next step.
 
-</details>
 
-<!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
+<!-- USAGE EXAMPLES -->
+## Usage
 
-<details id=5>
-<summary><h2>Step 5: Merge your pull request</h2></summary>
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_Great job adding a task list to the file :heart:_
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### :keyboard: Activity: Merge your pull request
 
-1. Under your repository name, click Pull requests.
-   ![repo-tabs-pull-requests](https://github.com/Exp-Communicate-Using-Markdown-Cohort-1/series-communicate-using-markdown/assets/107881423/a5351683-be08-4f46-83b4-864dae00c70a)
 
-1. In the “Pull Requests” list, click the pull request you’d like to merge.
-1. Scroll down to the bottom of the pull request Click **Merge pull request**.
-   ![merge PR](https://github.com/Exp-Communicate-Using-Markdown-Cohort-1/series-communicate-using-markdown/assets/107881423/7dfd1089-7ad1-4e49-b18b-e2630d05cf14)
+<!-- ROADMAP -->
+## Roadmap
 
-1. Wait about 20 seconds then refresh this page for the next step.
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] Chinese
+    - [ ] Spanish
 
-</details>
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<details id=X>
-<summary><h2>Finish</h2></summary>
 
-_Congratulations friend, you've completed this course!_
 
-<img src=https://octodex.github.com/images/welcometocat.png alt=celebrate width=300 align=right>
+<!-- CONTRIBUTING -->
+## Contributing
 
-Here's a recap of all the tasks you've accomplished in your repository:
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. You learned about Markdown, headings, images, code examples, and task lists.
-1. You created and merged a Markdown file.
-1. You learned an essential GitHub skill. 🎉
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-### What's next?
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-- You can enable GitHub Pages and see your Markdown file as a website!
-  1. Under your repository name at the upper right, click :gear: **Settings**.
-  1. Then on the lower left, click **Pages** in the **Code and automation** section.
-  1. In the **GitHub Pages** section, ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu as your GitHub Pages publishing source.
-  1. Click the **Save** button.
-  1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ..." you can click on the link to see your published site.
-- Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/skills/.github/discussions)
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-</details>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
 
----
+<!-- LICENSE -->
+## License
 
-Get help: [Post in our discussion board](https://github.com/orgs/community/discussions/categories/github-education) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-&copy; 2022 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
